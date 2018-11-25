@@ -11,5 +11,21 @@
         p = (x + y + z) / 2
         Dim S = Math.Sqrt(p * (p - x) * (p - y) * (p - z))
         Label1.Text = Format(S, "0.00")
+
+
     End Sub
+    Private Sub Form_Load()
+
+        Print("万紫千红")
+
+
+
+
+
+
+    End Sub
+    Private Sub Command1_Click()
+        Cls
+    End Sub
+
 End Class
